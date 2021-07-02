@@ -1,0 +1,282 @@
+#home{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .home-left{
+      text-align: left;  
+  }
+  .home-right{
+      text-align: right;
+  }
+
+.img-bordered {
+    border-radius: 6px;
+    vertical-align: middle;
+}
+
+.now {
+    background: #1E90FF;
+    color: #FFFFFF;
+}
+
+.now:hover {
+    background: #FFFFFF;
+    color: #6bb6ff;
+}
+
+.oder-now {
+    background: #1E90FF;
+    color: #FFFFFF;
+}
+
+.oder-now:hover {
+    background: #005db7;
+    color: #FFFFFF;
+}
+
+.order-now {
+    background-color: #005bd7; 
+    color: #FFFFFF;
+}
+
+.order-now:hover {
+    background: #1E90FF;
+    color: #FFFFFF;
+}
+
+.view-now {
+    background-color: #6bb6ff; 
+    color: #FFFFFF;
+}
+
+.view-now:hover {
+    background-color: #005bd7; 
+    color: #FFFFFF;
+}
+
+.view-col .fas{
+    font-size: 36px;
+}
+
+.view-coltroll .now{
+    background: #1E90FF;
+    color: #FFFFFF;
+}
+
+.view-coltroll .now:hover {
+    background: #FFFFFF;
+    color: #6bb6ff;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    border-left: none;
+    display: block;
+    
+}
+
+.quote-icon.mdi-format-quote {
+    transform: rotate(
+-180deg
+);
+    margin-top: -0.2em;
+    margin-left: -0.2em;
+}
+.quote-icon {
+    margin-left: -.23em;
+    transform: rotate(
+180deg
+);
+    font-size: 44px;
+    line-height: 1;
+    color: #1E90FF;
+}
+
+.mdi {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    transform: translate(0, 0);
+}
+
+.quote-default q {
+    font-style: italic;
+}
+h6, .heading-6 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+q {
+    display: inline;
+}
+
+:root {
+    background: #FFFFFF;
+  }
+  
+  span#procent {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+  }
+  
+  span#procent::after {
+    content: '%';
+  }
+  
+  .canvas-wrap {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    color: #FFFFFF;
+  }
+
+  span#procent2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+  }
+  
+  span#procent2::after {
+    content: '%';
+  }
+  
+  .canvas-wrap2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+  }
+
+.fluged-image .far {
+    position: relative;
+    z-index: 1;
+    font-size: 70px;
+    line-height: 1.15;
+    color: #1E90FF;
+}
+
+.far {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.fluged-image .far:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 59px;
+    height: 60px;
+    background: url(../images/icon-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.far::before {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    position: absolute;
+    left: 75px;
+    top: 50px;
+    text-align: center;
+}
+
+.c-color {
+    background: #2995ff;
+}
+
+.c-color .far{
+    font-size: 72px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.c-color .fas{
+    font-size: 72px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.c-color .fa{
+    font-size: 72px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.content-view {
+    padding-top: 200px;
+    font-weight: lighter;
+}
+
+.large-img {
+    display: block;
+    width: 608px;
+    clear: both;
+}
+
+.small-img {
+  
+    display: inline-block;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.faded {
+    opacity: 0.5;
+}
+
+.col-a img{
+    width: 180px;
+    height: 120px;
+}
+
+
+  .container.flex-start {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .item {
+    font-size: 1rem;
+    line-height: 0;
+    text-align: center;
+    padding: 1rem;
+    color: #aeb1be;
+    margin: 6px;
+  }
+
+  .link-network .fab{
+        padding: 0.5rem;
+        color: #aeb1be;
+  }
+
+  
